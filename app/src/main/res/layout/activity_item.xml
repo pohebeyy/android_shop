@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201E28"
+    tools:context=".itemActivity">
+
+    <TextView
+        android:id="@+id/item_list_title_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_black"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/item_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+    <Button
+
+        android:id="@+id/button_buy"
+
+        android:layout_width="200dp"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:text="Добавить в корзину" />
+
+</LinearLayout>
